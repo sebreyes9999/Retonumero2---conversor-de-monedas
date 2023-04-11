@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Conversor de moneda</title>
+    <title>Reto n°2</title>
 </head>
 <body>
-    <h1>Conversor de moneda</h1>
-    <p>Escoje la moneda y la cantidad para realizar la conversion</p>
-    
+    <h1>Convertidor de monedas</h1>
+    <p>Pon la cantidad y moneda a convertir</p>  
     <div class="container">
         <div class="moneda">
             <select id="moneda-uno">
@@ -66,27 +65,15 @@
                 <option value="UYU">UYU</option>
                 <option value="VND">VND</option>
                 <option value="ZAR">ZAR</option>
-
             </select>
 
-            <input 
-            type="number" 
-            id="cantidad-uno" 
-            placeholder="0"  
-            value="1"
-            >
-
+            <input type="number" id="valor-uno" placeholder="0" value="1">
+             
         </div>
 
         <div class="taza-cambio-container">
-            <button class="btn" id="taza">
-                cambio
-            </button>
-
-            <div class="cambio" id="cambio"></div>
-
+            <center><button class="btn" id="taza">posicion de las monedas</button></center>
         </div>
-
         <div class="moneda">
             <select id="moneda-dos">
                 <option value="AED">AED</option>
@@ -141,18 +128,12 @@
                 <option value="UYU">UYU</option>
                 <option value="VND">VND</option>
                 <option value="ZAR">ZAR</option>
-
             </select>
 
-            <input 
-            type="number" 
-            id="cantidad-dos" 
-            placeholder="0"  
-            >
-
+            <input type="number" id="valor-dos" placeholder="0">
+                     
         </div>
     </div>
-
-<script src="./dist/script.js"></script>
+<script src="./dist/main.js"></script>
 </body>
 </html>
